@@ -1,5 +1,14 @@
 * {
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2, h3 {
+	font-family: 'Neuton', serif;
+}
+
+h3 {
+	padding: 0 0 2%;
 }
 
 .container {
@@ -49,4 +58,33 @@ article {
 
 figure img {
 	width: 100%;
+}
+
+figure {
+	position: relative;
+}
+
+figcaption {
+	background-color: #000;
+	color: #fff;
+	width: 100px;
+	position: absolute;
+	bottom: 4px;
+	text-align: center;
+	padding: 5px;
+	text-transform: uppercase;
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+}
+
+.icons img {
+	width: 10%;
+}
+
+span {
+	color: #e0e0e0;
+}
+
+p {
+	padding: 2% 0;
 }
